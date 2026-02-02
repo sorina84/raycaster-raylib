@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>گالری پروژه Raycaster</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <nav>
+    <ul>
+      <li><a href="index.html">خانه</a></li>
+      <li><a href="gallery.html">گالری</a></li>
+      <li><a href="devlog.html">مستندات</a></li>
+    </ul>
+  </nav>
+
+  <main class="gallery">
+    <h1>گالری مراحل پروژه</h1>
+    <p class="gallery-desc">
+      در این بخش خروجی پروژه در فازهای مختلف نمایش داده شده است. هر تصویر نشان‌دهنده‌ی پیشرفت اجرای الگوریتم Ray Casting است.
+    </p>
+
+    <!-- Phase 1 -->
+    <section class="phase-row">
+      <div class="phase-text">
+        <h2>فاز ۱ — رندر پایه‌ی دیوارها</h2>
+        <p>نمای سه‌بعدی اولیه با دیوارهای ساده و رنگ‌گذاری پایه (بدون تکسچر).</p>
+      </div>
+
+      <figure class="shot">
+        <img src="images/phase1.png" alt="Phase 1" loading="lazy">
+        <figcaption>Phase 1</figcaption>
+      </figure>
+    </section>
+
+    <!-- Phase 2 -->
+    <section class="phase-row">
+      <div class="phase-text">
+        <h2>فاز ۲ — ویرایش نقشه (قبل / بعد)</h2>
+        <p>در این فاز حالت ویرایش نقشه اضافه شده تا بتوانم دیوارها را با کلیک تغییر بدهم و نقشه را ذخیره/بارگذاری کنم.</p>
+      </div>
+
+      <figure class="shot">
+        <img src="images/phase2_before.png" alt="Phase 2 Before" loading="lazy">
+        <figcaption>Phase 2 (Before)</figcaption>
+      </figure>
+
+      <figure class="shot">
+        <img src="images/phase2_after.png" alt="Phase 2 After" loading="lazy">
+        <figcaption>Phase 2 (After)</figcaption>
+      </figure>
+    </section>
+
+    <!-- Phase 3 -->
+    <section class="phase-row">
+      <div class="phase-text">
+        <h2>فاز ۳ — نمای سه‌بعدی نهایی (دو زاویه)</h2>
+        <p>حرکت و برخورد (Collision) و دوربین کامل‌تر شده و خروجی سه‌بعدی را از دو زاویه‌ی متفاوت ثبت کرده‌ام.</p>
+      </div>
+
+      <figure class="shot">
+        <img src="images/phase3_1.png" alt="Phase 3 View 1" loading="lazy">
+        <figcaption>Phase 3 (View 1)</figcaption>
+      </figure>
+
+      <figure class="shot">
+        <img src="images/phase3_2.png" alt="Phase 3 View 2" loading="lazy">
+        <figcaption>Phase 3 (View 2)</figcaption>
+      </figure>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 — پروژه Raycaster</p>
+  </footer>
+</body>
+</html>
