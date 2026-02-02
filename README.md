@@ -50,3 +50,5 @@ The website provides:
 
 Sorina Afshary [403433033]
 GitHub: https://github.com/sorina84
+Repository: https://github.com/sorina84/raycaster-raylib  
+Project Website: https://sorina84.github.io/raycaster-raylib/
